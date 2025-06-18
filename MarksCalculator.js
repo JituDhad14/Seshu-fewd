@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 function MarksCalculator() {
   const numStudents = 5;
   const numSubjects = 3;
+
   const [marks, setMarks] = useState(
     Array.from({ length: numStudents }, () => Array(numSubjects).fill(''))
   );
